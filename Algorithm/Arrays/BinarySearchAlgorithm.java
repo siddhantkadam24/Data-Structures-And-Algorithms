@@ -7,15 +7,15 @@ class BinarySearch
 		
 		while(true) //infinite loop till condition is satisfied or we put "break"
 		{
-			int mid = (s+e)/2; // we put mid in the loop as we have to initialize it 						multiple times
+			int mid = (s+e)/2; // we put mid in the loop as we have to initialize it multiple times
 		
-			if(a[mid] == target){   // if target is same as the value of mid print and 							break the statement
+			if(a[mid] == target){   // if target is same as the value of mid print and 	break the statement
 		 		System.out.println(target+" at "+mid+" index");
 		        	break;
 			}else if(a[mid] > target){  //if mid value is greater than target value then we can say that target value is on the left side of the array range, so we initialize e to mid -1
 				e = mid-1;
 			}else{	//if mid value is less than target value then we can say that target value is on the right side of the array range, so we initialize s to mid+1
-		        	s = mid+1;
+		        s = mid+1;
 			}
 		}
 	}
