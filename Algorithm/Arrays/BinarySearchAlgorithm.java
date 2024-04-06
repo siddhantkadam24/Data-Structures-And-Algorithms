@@ -9,7 +9,7 @@ class BinarySearch
 		{
 			int mid = (s+e)/2; // we put mid in the loop as we have to initialize it multiple times
 		
-			if(a[mid] == target){   // if target is same as the value of mid print and 	break the statement
+			if(a[mid] == target){   // if target is same as the value of mid print and break the statement
 		 		System.out.println(target+" at "+mid+" index");
 		        	break;
 			}else if(a[mid] > target){  //if mid value is greater than target value then we can say that target value is on the left side of the array range, so we initialize e to mid -1
