@@ -4,7 +4,7 @@ public class SelectionSortAlgoithm {
     */
     public int[] selectionSort(int [] a)
     {
-        for(int i = 0; i < a.length;i++)
+        for(int i = 0; i < a.length-1;i++)
 		{
 		    int small = i; //initiazlizing small value with present index
 		    for(int j = i+1; j < a.length ;j++) // nested for loops for traversing
