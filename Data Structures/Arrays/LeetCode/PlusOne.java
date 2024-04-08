@@ -18,3 +18,4 @@ class Solution {
         newNumber[0] = 1;
         return newNumber;
     }
+}
