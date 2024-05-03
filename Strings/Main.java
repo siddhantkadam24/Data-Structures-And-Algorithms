@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Palindrome p = new Palindrome();
-        System.out.println(p.palindromeOrNot("121"));
+        Anagram a = new Anagram();
+
+        System.out.println(a.anagramOrNot("SID", "DIS"));
     }
 }
