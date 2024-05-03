@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        String s = "java is best";
-        ReverseWord r = new ReverseWord();
-        r.reverseWord(s);
+        String s = "jav!a is best";
+        CountWords c = new CountWords();
+        System.out.println(c.countingWords(s));
     }
 }
