@@ -1,6 +1,7 @@
+import java.lang.Character;
 class IndexOfAllChar
 {
-    public static void indexOfAllChar(String demo)
+    public void indexOfAllChar(String demo)
     {
         for(int i =0 ; i<demo.length();i++)
         {

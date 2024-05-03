@@ -19,6 +19,6 @@ class CompTwoLexo //CASE SENSITIVE
 		dec = false;
 	}
         return dec;
-    } or // make use of compareTo() method which compares lexographically means length and elements should be at the same indexes.(case sensitive)
+    }  // make use of compareTo() method which compares lexographically means length and elements should be at the same indexes.(case sensitive)
 }
 
