@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Anagram a = new Anagram();
-
-        System.out.println(a.anagramOrNot("SID", "DIS"));
+        String s = "java is best";
+        ReverseWord r = new ReverseWord();
+        r.reverseWord(s);
     }
 }
