@@ -1,4 +1,4 @@
-public class DLL {
+public class DLL {//tuygyuy
     Node head;
     Node tail;
     int size=1;
